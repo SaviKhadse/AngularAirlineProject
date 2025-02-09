@@ -1,0 +1,42 @@
+nav ul {
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  
+}
+
+nav li {
+    cursor: pointer;
+}
+
+nav button {
+    font-size: 1.5rem;       /* Increase font size */
+    padding: 15px 30px;      /* Increase button padding for a larger button */
+    background-color: rgb(13, 255, 0); /* Example primary color */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for buttons */
+  nav button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Optional: Center all content vertically (if needed) */
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center;     /* Centers content horizontally */
+    height: 100vh;
+  }

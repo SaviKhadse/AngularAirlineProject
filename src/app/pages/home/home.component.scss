@@ -1,0 +1,14 @@
+.social-img {
+    width: 40px;  /* Adjust size as needed */
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-img:hover {
+    transform: scale(1.1);
+  }
+  p{
+    margin: 10px;
+    font-weight:bold;
+    
+  }
