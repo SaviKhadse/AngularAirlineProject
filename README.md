@@ -1,5 +1,7 @@
 # TekarchFlightUIProject
 
+Tekarch Flight project is using microservices built in other repositories and fetching user, flight details and do the booking.
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.6.
 
 ## Development server
